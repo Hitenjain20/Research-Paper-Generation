@@ -1,0 +1,22 @@
+[project]
+name = "researchpapergen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "agno>=2.0.7",
+    "anthropic[bedrock]>=0.68.0",
+    "arxiv>=2.2.0",
+    "chromadb>=1.1.0",
+    "exa-py>=1.15.6",
+    "lancedb>=0.25.0",
+    "llama-cloud-services>=0.6.68",
+    "pgvector>=0.4.1",
+    "psycopg>=3.2.10",
+    "pypdf>=6.0.0",
+    "python-dotenv>=1.1.1",
+    "reductoai>=0.11.0",
+    "sqlalchemy>=2.0.43",
+    "unstructured-client>=0.42.3",
+]
